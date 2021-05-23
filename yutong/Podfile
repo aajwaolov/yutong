@@ -1,0 +1,8 @@
+platform :ios, '7.0'
+
+target 'yutong' do
+pod 'CocoaAsyncSocket','~> 7.4.3'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'FMDB'
+pod 'SDAutoLayout'
+end
