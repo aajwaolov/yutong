@@ -114,9 +114,7 @@
 		2C6CC9B11C51F12C00493F23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C6CC9B31C51F12C00493F23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C6CC9B41C51F12C00493F23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2C6CC9BA1C51F12C00493F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C6CC9BC1C51F12C00493F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C6CC9BF1C51F12C00493F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C6CC9C11C51F12C00493F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C6CC9C71C51F56A00493F23 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		2C6CC9C81C51F56A00493F23 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
@@ -162,6 +160,10 @@
 		E23F99776D7A666D9F7E9C0E /* Pods-yutong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yutong.release.xcconfig"; path = "Pods/Target Support Files/Pods-yutong/Pods-yutong.release.xcconfig"; sourceTree = "<group>"; };
 		F90B56C71D5A17E600A7CDE7 /* SettingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingSlider.h; sourceTree = "<group>"; };
 		F90B56C81D5A17E600A7CDE7 /* SettingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingSlider.m; sourceTree = "<group>"; };
+		F93B91071D73D89E005D509B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F93B910A1D73D89E005D509B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F93B910B1D73D903005D509B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		F93B910C1D73D903005D509B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -422,7 +424,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				"zh-Hans",
 			);
 			mainGroup = 2C6CC9A41C51F12C00493F23;
 			productRefGroup = 2C6CC9AE1C51F12C00493F23 /* Products */;
@@ -577,7 +579,8 @@
 		2C6CC9B91C51F12C00493F23 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2C6CC9BA1C51F12C00493F23 /* Base */,
+				F93B91071D73D89E005D509B /* en */,
+				F93B910B1D73D903005D509B /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -585,7 +588,8 @@
 		2C6CC9BE1C51F12C00493F23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2C6CC9BF1C51F12C00493F23 /* Base */,
+				F93B910A1D73D89E005D509B /* en */,
+				F93B910C1D73D903005D509B /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

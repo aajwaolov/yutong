@@ -460,8 +460,6 @@ const static NSInteger countPerPage = 5;
             
             NSArray* tempArray2 = [_recStr componentsSeparatedByString:@"#"];
             
-//            NSLog(@"_wd_1 count = %ld", [_wd_1 count]);
-            
             if(_num1 == [_recStr length])
             {
                 for(int i = 2; i < [tempArray2 count] - 1; i++)
