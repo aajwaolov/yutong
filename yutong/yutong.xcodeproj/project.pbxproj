@@ -683,7 +683,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18B28BA321693B7FA4938652 /* Pods-yutong.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: zhang jian wei (CTF777WCLU)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -708,7 +708,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E23F99776D7A666D9F7E9C0E /* Pods-yutong.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: zhang jian wei (CTF777WCLU)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
